@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!-- project 1 -->
+    <div>
+        <h2>Event registeration form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"><br>
+            <label for="phone">Phone no:</label><br>
+            <input type="text" id="phone"><br>
+            <label for="occupation">Occupation:</label><br>
+            <select name="occupationtype" id="occupation">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <fieldset>
+                <legend>Topics of interest</legend>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">HTML</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for="checkbox2">CSS</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox3">
+                <label for="checkbox3">JS</label><br>
+            </fieldset>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" rows="10" cols="18" name="comment"></textarea><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <hr>
+    <!-- project 2 -->
+    <div>
+        <h2>Job Application form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"><br>
+            <label for="phone">Phone no:</label><br>
+            <input type="text" id="phone"><br>
+            <label for="resume">Resume:</label><br>
+            <input type="file" name="fileupload" id="resume"><br>
+            <label for="experience">Experience (years):</label><br>
+            <input type="number"><br>
+            <fieldset>
+                <legend>Skills</legend>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+                <label for="checkbox1">HTML</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+                <label for="checkbox2">CSS</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox3">
+                <label for="checkbox3">JS</label><br>
+            </fieldset><br>
+            <label for="higheredu">Higher Education:</label><br>
+            <select name="eduationtype" id="higheredu">
+                <option value="schooling">Scholling</option>
+                <option value="highschool">High school</option>
+                <option value="graduate">Graduation</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <fieldset>
+                <legend>Availability:</legend>
+                <input type="radio" name="radio" value="fulltime" id="fulltime"><br>
+                <label for="fulltime">Full time</label><br>
+                <input type="radio" name="radio" value="parttime" id="parttime"><br>
+                <label for="parttime">Part time</label><br>
+            </fieldset><br>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" rows="10" cols="18" name="comment"></textarea><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <hr>
+    <!-- project 3 -->
+    <div>
+        <h2>Complex Form</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <label for="phone">Phone no:</label>
+                <input type="text" id="phone">
+                <label for="dob">Date of Birth:</label>
+                <input type="date">
+                <span>Gender</span>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <label for="country">Country :</label><br>
+                <select name="country" id="country">
+                    <option value="usa">usa</option>
+                    <option value="india">india</option>
+                    <option value="china">china</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street">
+                <label for="city">City:</label>
+                <input type="text" id="city">
+                <label for="State">State:</label>
+                <input type="text" id="state">
+                <label for="zipcode">ZipCode:</label>
+                <input type="text" id="name">
+            </fieldset><br>
+            <fieldset>
+                <legend>Other Information</legend>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" rows="5" cols="70" name="comment"></textarea>
+                <span>I agree to the terms and service</span>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+            </fieldset><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

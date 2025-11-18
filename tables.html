@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!-- Table is nothing but the collection of elements in the row and column direction  -->
+    
+    <!-- Example 1 -->
+    <table border="1rem">
+        <thead>
+            <th>Student no</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1214</td>
+                <td>Bill</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>1215</td>
+                <td>Jhon</td>
+                <td>Male</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>1215</td>
+                <td>olama</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>1216</td>
+                <td>willy</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- rowspan and colspan -->
+
+    <table border="1rem">
+        <thead>
+            <th>Student no</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1214</td>
+                <td colspan="3">Bill</td>
+                
+            </tr>
+            <tr>
+                <td>1215</td>
+                <td>Jhon</td>
+                <td>Male</td>
+                <td rowspan="3">18</td>
+            </tr>
+            <tr>
+                <td>1215</td>
+                <td>olama</td>
+                <td>Male</td>
+                
+            </tr>
+            <tr>
+                <td>1216</td>
+                <td>willy</td>
+                <td>Male</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Example 2 -->
+    <table border="1rem">
+        <tr>
+            <td>Columu 1</td>
+            <td>Columu 2</td>
+            <td>Columu 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> row1 cell 1</td>
+            <td> row 1 cell 2</td>
+            <td> row 1 cell 3</td>
+        </tr>
+        <tr>
+            
+            <td>row 2 cell 2</td>
+            <td>row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">row 3 cell 1</td>
+        </tr>
+    </table>
+
+    <!-- Exapmle 2 -->
+    <table border="1rem">
+        <thead>
+            <th>Country</th>
+            <th>State</th>
+            <th>city</th>
+            <th>Street</th>
+            <th>male</th>
+            <th>female</th>
+            <th>others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerla</td>
+                <td rowspan="2">cohin</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Main street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Trivandrum</td>
+                <td>grru street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Tvk street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krisha street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Main street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+             <tr>
+                <td>billa street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alska</td>
+                <td rowspan="2">aka general</td>
+                <td>New street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+             <tr>
+                <td>Cross street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
